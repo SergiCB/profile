@@ -110,7 +110,7 @@ li {
 }
 
 #green-button {
-  background-color: rgb(102, 161, 130,0.8);
+  background-color: rgba(102, 161, 130,0.8);
   color: white;
   padding: 7px 7px;
   border-radius: 4px;
