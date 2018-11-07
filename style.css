@@ -1,0 +1,130 @@
+body {
+  background-color: #F0EDEE;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(80,80,80);
+  font-size: 16px;
+
+}
+
+h1,h2,h3 {
+  font-family:'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #2E4057;
+}
+
+h2 {
+  color: #2C666E;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: #66A182;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(43, 102, 110);
+}
+
+a:hover {
+  color: rgba(43, 102, 110,0.4);
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 650px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 550px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 375px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 15px 15px;
+  margin: 15px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.img-reduce {
+  width: 250px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .img-reduce {
+    width: 215px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .img-reduce {
+    width: 160px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .img-reduce {
+    width: 120px;
+  }
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#green-button {
+  background-color: rgb(102, 161, 130,0.8);
+  color: white;
+  padding: 7px 7px;
+  border-radius: 4px;
+  line-height: 40px;
+}
+
+#green-button:hover {
+  background-color: rgba(102, 161, 130,0.4);
+}
+
+.movies-padding {
+  padding: 10px 10px;
+}
+
+td {
+  padding: 10px;
+}
